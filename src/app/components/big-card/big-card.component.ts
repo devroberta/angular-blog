@@ -16,4 +16,7 @@ export class BigCardComponent {
   @Input()
   cardDescription: string = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quo harum quod, inventore voluptate totam molestias quos deserunt deleniti, eius cum aut incidunt eligendi accusantium, cumque quam perferendis amet id?';
 
+  @Input()
+  id: string = '0';
+
 }
